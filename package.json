@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is test version for npm",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohithPrabakar/Git-test.git"
+  },
+  "author": "Rohith Prabakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohithPrabakar/Git-test/issues"
+  },
+  "homepage": "https://github.com/RohithPrabakar/Git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
